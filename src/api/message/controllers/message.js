@@ -34,7 +34,7 @@ module.exports = createCoreController("api::message.message", ({ strapi }) => ({
             next.getHours() === sample.getHours() &&
             next.getMinutes() === sample.getMinutes();
 
-          console.log(next, sample, isValid);
+          //   console.log(next, sample, isValid);
 
           return isValid;
         } catch (err) {
