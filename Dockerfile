@@ -8,6 +8,7 @@ COPY . .
 RUN npm install --unsafe-perm
 
 ENV DATABASE_FILENAME "/data/database.db"
+ENV APP_KEYS [key1asda, key2fadsf]
 ENV NODE_ENV production
 
 RUN npm run build
