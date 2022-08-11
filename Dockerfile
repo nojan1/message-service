@@ -14,6 +14,5 @@ RUN npm run build
 
 VOLUME [ "/data" ]
 EXPOSE 1337
-EXPOSE 80
 
 CMD ["npm", "start"]
