@@ -13,7 +13,7 @@ module.exports = createCoreController("api::message.message", ({ strapi }) => ({
       _publicationState: "published",
     });
 
-    console.log(publishedMessages);
+    // console.log(publishedMessages);
 
     const message = (publishedMessages?.results ?? [])
       .filter((m) => {
